@@ -19,7 +19,7 @@ void draw()
    PVector origin = new PVector(120,180);
    PVector xAxisScale = new PVector(400,0), xAxis = new PVector(0,0);
    PVector yAxisScale = new PVector(0,-120), yAxis = new PVector(0,0);
-   int period = 2; // a period of 4ms
+   int period = 2; // a period of 2ms
    float yMax = 5, // 5V
          yMin = 0; // 0V
    int yDrawingFactor = 20, xDrawingFactor = yDrawingFactor * 4/period, numberOfPulses = 5;
